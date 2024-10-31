@@ -1,7 +1,7 @@
 
 # MEU CÓDIGO
 
-    Fazer isso funcionar foi uma luta, pois como o pedido do professor era que usassemos as cores dos fios com base na convenção, quase fiquei louca! Pois como todos estavam atrás das mesmas cores de fios eles (macho femea) acabaram acabando... Mas n deixei isso me parar e fiz gambiarras com machos machos e femeas femeas. Além disso, tinha um problema que NÃO se solucionava de jeito nenhum, e no final n era um problema, era um jumper estragado...
+Fazer isso funcionar foi uma luta, pois como o pedido do professor era que usassemos as cores dos fios com base na convenção, quase fiquei louca! Pois como todos estavam atrás das mesmas cores de fios eles (macho femea) acabaram acabando... Mas n deixei isso me parar e fiz gambiarras com machos machos e femeas femeas. Além disso, tinha um problema que NÃO se solucionava de jeito nenhum, e no final n era um problema, era um jumper estragado...
 
 |Tabela de componentes|		| ||  |
 |-|-|-|-|-|
@@ -15,13 +15,13 @@
 
 **Doc de montagem:**
 
-    Comecei montando os LEDs e seus resistores de 330 ohms na protoboard, o que facilitou bastante a visualização do circuito. Em seguida, escrevi a primeira versão do código para definir os pinos que seriam usados. Com os pinos definidos, conectei-os aos LEDs e fiz o primeiro teste, e o sinaleiro funcionou corretamente!
+Comecei montando os LEDs e seus resistores de 330 ohms na protoboard, o que facilitou bastante a visualização do circuito. Em seguida, escrevi a primeira versão do código para definir os pinos que seriam usados. Com os pinos definidos, conectei-os aos LEDs e fiz o primeiro teste, e o sinaleiro funcionou corretamente!
 
-    Inicialmente, não sabia que precisaria adicionar algo extra à atividade, mas, por pura curiosidade, resolvi incrementar o projeto. Decidi incluir um sensor que funcionaria somente durante o sinal vermelho. Se o sensor detectasse movimento, ele ativaria o buzzer para emitir um sinal de alerta; caso contrário, o buzzer emitiria um som baixo e intervalado para indicar que o sinal estava fechado.
+Inicialmente, não sabia que precisaria adicionar algo extra à atividade, mas, por pura curiosidade, resolvi incrementar o projeto. Decidi incluir um sensor que funcionaria somente durante o sinal vermelho. Se o sensor detectasse movimento, ele ativaria o buzzer para emitir um sinal de alerta; caso contrário, o buzzer emitiria um som baixo e intervalado para indicar que o sinal estava fechado.
 
-    Para isso, usei o sensor HC-SRO4 e conectei-o nos pinos corretos. Não usei resistores aqui, pois a voltagem fornecida era exata para o funcionamento. Com o menor resistor que eu tinha, os componentes paravam de funcionar, então optei por removê-los. Outro detalhe foi que o som do buzzer estava bem baixo.
+Para isso, usei o sensor HC-SRO4 e conectei-o nos pinos corretos. Não usei resistores aqui, pois a voltagem fornecida era exata para o funcionamento. Com o menor resistor que eu tinha, os componentes paravam de funcionar, então optei por removê-los. Outro detalhe foi que o som do buzzer estava bem baixo.
 
-    Além disso, não conectei o ESP32 diretamente à protoboard. Ele não queria encaixar corretamente, e eu preferi evitar o risco de danificá-lo.
+Além disso, não conectei o ESP32 diretamente à protoboard. Ele não queria encaixar corretamente, e eu preferi evitar o risco de danificá-lo.
 
 
 ``` c++
