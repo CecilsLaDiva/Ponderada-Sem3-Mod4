@@ -127,14 +127,4 @@ void loop() {
 |Ir além: Implementou um componente de extra, fez com millis() ao invés do delay() e/ou usou ponteiros no código |	X |	-- |	-- |Implementou dois componentes extras (buzzer e sensor ultrassonico), além de também utilizar millis. |	
 | | | | |Pontuação Total: 10 |
 
-<div align="center">
-<sub>foto</sub><br>
-<img src="../assets\foto.jpeg" width="80%" ><br>
-<sup>Fonte: Material produzido pelos autores (2024)</sup>
-</div>
-
-<div align="center">
-<sub>vídeo</sub><br>
-<img src="../assets\video.mp4" width="80%" ><br>
-<sup>Fonte: Material produzido pelos autores (2024)</sup>
-</div>
+# FOTO E VÍDEO ESTÃO NA PASTA "assets" (estava dando erro ao adicionar aqui)
